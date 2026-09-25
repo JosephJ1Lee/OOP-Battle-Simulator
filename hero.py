@@ -1,6 +1,5 @@
 import random
-class Hero:
-    
+class Hero: 
     def __init__(self, name):
         self.name = name
         self.health = random.randint(100, 151)
